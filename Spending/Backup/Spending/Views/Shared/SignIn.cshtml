@@ -1,0 +1,51 @@
+﻿@model EntityModels.UserModel
+<div class="">
+    <div id="title" class="logo">
+        <h1>
+            Spending</h1>
+    </div>
+    <div class="divLogin">
+        @using (Html.BeginForm("LogOn", "Home", FormMethod.Post, new { @id = "formLogin" }))
+        {
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="">
+                            <label for="email">
+                                Email</label>
+                        </td>
+                        <td class="">
+                            <label for="pass">
+                                Senha</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.TextBoxFor(model => model.Email, new { @placeholder = "Email", @tabindex = "1" })
+                        </td>
+                        <td>
+                            @Html.PasswordFor(model => model.Password, new { @placeholder = "Password", @tabindex = "2" })
+                        </td>
+                        <td>
+                            <img src="../../Content/themes/base/images/reload.gif" class="reloadImg" id="loginReload"/>
+                            <input value="Entrar" tabindex="3" type="button" id="submitLogin" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Html.ValidationMessageFor(model => model.Email)
+                        </td>
+                        <td>
+                            @Html.ValidationMessageFor(model => model.Password)
+                        </td>
+                    </tr>                    
+                </tbody>
+            </table>
+            
+            if (Model.IsInvalid)
+            {
+                <span id="EmailOrPassInvalid" class="field-validation-error"><span>Email or password incorrect.</span> </span>
+            }
+        }
+    </div>
+</div>

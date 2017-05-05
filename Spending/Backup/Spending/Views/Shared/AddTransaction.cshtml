@@ -1,0 +1,34 @@
+﻿@model EntityModels.TransactionModel
+           
+<h3>Insert Movimentations</h3>
+
+@using (Html.BeginForm("LogOn", "Home", FormMethod.Post, new { @id = "formAddTransaction" }))
+{
+    <div class="transactionFields">    
+        <div>
+            @Html.ValidationMessageFor(model => model.Subject)
+            @Html.TextAreaFor(model => model.Subject, new { @placeholder = "Subject", @tabindex = "1", @class = "transactionTextArea" , @cols = 20, @row = 2 })
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Value)
+            @Html.TextBoxFor(model => model.Value, new { @placeholder = "Value", @tabindex = "2", @class = "transactionField decimal" ,Value=String.Format("{0:C}",Model.Value) })
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Date)
+            @Html.TextBoxFor(model => model.Date, new { @placeholder = "Date", @tabindex = "3", @class = "transactionField dateField" })
+        </div>        
+        <div>
+            @Html.ValidationMessageFor(model => model.Time)
+            @Html.TextBoxFor(model => model.Time, new { @placeholder = "Time", @tabindex = "4", @class = "transactionField timeField" })
+        </div>
+        <div>
+            @Html.ValidationMessageFor(model => model.Type)
+            @Html.DropDownListFor(model => model.Type, new SelectList(Enum.GetValues(typeof(EntityModels.TransactionType))), new { @tabindex = "5", @class = "transactionField" })
+        </div>
+        <div>
+            <input value="Add" tabindex="6" type="button" id="sendTransaction" class="transactionBtn" />
+        </div>
+    </div>
+}
+
+

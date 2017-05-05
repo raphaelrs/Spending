@@ -1,0 +1,4 @@
+c:\users\raphael\documents\visual studio 2010\Projects\Spending\Model\bin\Debug\Model.dll
+c:\users\raphael\documents\visual studio 2010\Projects\Spending\Model\bin\Debug\Model.pdb
+c:\users\raphael\documents\visual studio 2010\Projects\Spending\Model\obj\Debug\Model.dll
+c:\users\raphael\documents\visual studio 2010\Projects\Spending\Model\obj\Debug\Model.pdb

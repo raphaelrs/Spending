@@ -1,0 +1,23 @@
+﻿@model Spending.Models.TransactionListModel
+
+@using Spending.Util;           
+
+@if (Model.ListModel != null && Model.ListModel.Count > 0)
+{
+    <div class="divBody">
+        @foreach (var item in Model.ListModel)
+        {
+            <div id="@("gridViewRow_" + item.Id)" class="gridRow @(item.IsColoredRow ? "coloredRow" : "") clearfix">
+                @Html.Partial("RowControl", item, ViewData)
+            </div>
+        }
+    </div>
+    
+
+    <div class="divTableFoot">
+        @if (Model.ListModel != null && Model.ListModel.Count > 0)
+        {
+            @Ajax.RodapeAjax(Model.CurrentPageIndex, Model.PageSize, Model.Total, "Paginate");
+        }
+    </div>
+}   

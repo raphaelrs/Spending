@@ -1,0 +1,59 @@
+﻿@model EntityModels.TransactionModel
+
+@if (Model.IsEditing)
+{
+    using (Ajax.BeginForm("Edit", "SutaRates", new AjaxOptions() { UpdateTargetId = "gridViewRow_" + Model.Id, InsertionMode = InsertionMode.Replace, HttpMethod = "POST", OnSuccess = "setMask" }, new { @class = "clearfix" }))
+    {
+    <div class="divTd1 divTdn">
+        @Html.TextBoxFor(model => model.Subject, new { @placeholder = "Subject", @class = "tdEdit tdEdit1" })
+    </div>
+    <div class="divTd2 divTdn">
+        @Html.TextBoxFor(model => model.Value, new { @placeholder = "Value", @class = "tdEdit tdEdit2" })
+    </div>
+    <div class="divTd3 divTdn">
+        @Html.TextBoxFor(model => model.Date, new { @Id = "Date"+Model.Id, @placeholder = "Date", @class = "rowDateField tdEdit tdEdit3" })
+    </div>
+    <div class="divTd4 divTdn">
+        @Html.TextBoxFor(model => model.Time, new { @Id = "Time"+Model.Id, @placeholder = "Time", @class = "rowTimeField tdEdit tdEdit4" })
+    </div>
+    <div class="divTd5 divTdn">
+        @Html.DropDownListFor(model => model.Type, new SelectList(Enum.GetValues(typeof(EntityModels.TransactionType))), new { @class = "tdEdit tdEdit5" })
+    </div>
+    <div class="divTd6 divTdn">
+        <a id="saveBtn" class="save-editLink saveLink" title="Save">Save</a>|<a id="cancelBtn"class="cancelEditLink cancel-editLink" title="Cancel">Cancel</a>
+    </div>    
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.IsColoredRow)        
+    @Html.HiddenFor(model => model.IsEditing)
+
+    }
+}
+else
+{
+    using (Ajax.BeginForm("Edit", "SutaRates", new AjaxOptions() { UpdateTargetId = "gridViewRow_" + Model.Id, InsertionMode = InsertionMode.Replace, HttpMethod = "GET", OnSuccess = "setMask" }, new { @class = "clearfix" }))
+    {            
+    <div class="divTd1 divTdn divTd">
+        @Model.Subject
+    </div>
+    <div class="divTd2 divTdn divTd">
+        $ @Model.Value
+    </div>
+    <div class="divTd3 divTdn divTd">
+        @Model.Date.GetValueOrDefault().ToShortDateString()
+    </div>        
+    <div class="divTd4 divTdn divTd">
+        @Model.Time.GetValueOrDefault().ToString(@"hh\:mm")
+    </div>
+    <div class="divTd5 divTdn divTd">
+        @Model.Type
+    </div>
+    <div class="divTd6 divTdn divTd">
+        <a class="editLink" title="Edit">Edit</a>|<a class="deleteLink" title="Delete">Delete</a>
+    </div>
+    <input type="submit" style="display: none" />
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.IsColoredRow)     
+    @*@Html.HiddenFor(model => model.IsEditing)*@
+    <input type="text" style="display:none" name="IsEditing" value="@Model.IsEditing" />
+    }
+}

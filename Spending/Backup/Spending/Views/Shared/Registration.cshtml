@@ -1,0 +1,61 @@
+﻿@model Spending.Models.UserViewModel
+
+<div class="registrationPanel">
+    <div class="aboutSpending">
+        <div class="inAbout">
+            <h1>
+                Welcome to Spendings,</h1>
+            <h2>
+                Here you can register all your spent money, say no to bad surprises at the end of
+                the month, control your money and have a good life.
+            </h2>
+        </div>
+    </div>
+    <div class="formRegistration">
+        <div class="inRegistration">
+            <div>
+                <h2>
+                    Create Account</h2>
+            </div>
+            <div>
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+                {
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Html.TextBoxFor(model => model.UserModel.Name, new { @placeholder = "Name", @tabindex = "1", @class = "inputText" })
+                                    @Html.ValidationMessageFor(model => model.UserModel.Name)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    @Html.TextBoxFor(model => model.UserModel.Email, new { @placeholder = "fulano@beltrano.com", @tabindex = "1", @class = "inputText" })
+                                    @Html.ValidationMessageFor(model => model.UserModel.Email)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                
+                                    @Html.PasswordFor(model => model.UserModel.Password, new { @placeholder = "Password", @tabindex = "2", @class = "inputText" })
+                                    @Html.ValidationMessageFor(model => model.UserModel.Password)
+                                </td>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input value="Login" tabindex="4" type="submit" id=""/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                }
+                @if (Model.LoginFailed)
+                {
+                    <div class="erro">@Model.Error</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

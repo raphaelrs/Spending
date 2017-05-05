@@ -1,0 +1,372 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+.reloadImg
+{
+    display:none;
+    height:15px;
+    width:20px;
+}
+
+.inputText
+{    
+    height: 25px;
+    width: 330px;
+}
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.header
+{
+    color:White;
+    width: 100%;
+    height: 80px;
+    /*margin-top:1.6em;*/
+    margin-bottom: 1.6em;
+    background-color:rgba(14, 255, 237, 0.37);
+}
+
+.main
+{     
+    background-color:white;
+}
+
+body {
+    background-color: rgba(78, 77, 77, 0.8);
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+.divLogin
+{
+    padding-top: 1em;
+    padding-right: 1em;
+    float: right;
+}
+
+.logo
+{    
+    padding-left: 1em;
+    float: left; 
+}
+
+.homeContent
+{   
+    padding: 1em 1em 1em 1em;
+}
+
+.registrationPanel
+{
+    height:400px;
+}
+
+.aboutSpending  
+{
+    float:left;
+    width:45%;  
+}
+
+.inAbout
+{    
+    padding-top: 18.5%;
+    text-align: center;
+    max-width: 80%;    
+    margin: 0 auto;
+}
+
+.aboutSpending h1  
+{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.formRegistration
+{
+    float:right;
+    width:45%;
+}
+
+.inRegistration
+{
+    padding-top: 15%;
+    max-width: 62%;    
+    margin: 0 auto;
+}
+
+.transactionContent
+{    
+    min-height:500px;
+    position:relative;
+    padding: 1em 1em 1em 1em;
+}
+
+.divOperation
+{      
+    float:left;
+    min-height:500px;
+    width: 17%;
+    border: 1px solid;
+
+}
+.transactionPanel
+{
+    margin-left: 0.2em;
+    min-height:500px;
+    width: 65%;
+    border: 1px solid;
+    float:left;
+}
+
+.cash
+{        
+    float: right;
+    min-height:500px;
+    width: 17%;
+    border: 1px solid;
+}
+
+.divOperation h3
+{
+    text-align:center;
+}
+
+.transactionFields
+{
+    margin-top:2.2em;
+}
+
+.transactionField
+{
+    margin-left: 0.5em;    
+    margin-bottom: 1em;
+    height: 25px;
+    width: 91%;
+}
+
+.transactionTextArea
+{
+    resize:vertical;    
+    margin-left: 0.5em;    
+    margin-bottom: 1.8em;
+    height: 90px;
+    width: 91%;
+    max-height: 125px;
+}
+
+.transactionFields select
+{
+    margin-left: 0.5em;    
+    margin-bottom: 1.8em;
+    height: 25px;
+    width: 93%;    
+}
+
+.transactionBtn
+{    
+    text-align:center;
+    height:30px;
+    margin-top:0.4em;
+    width:93%;
+    margin-left: 0.5em;    
+}
+
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.erro
+{
+    color:Red;
+}
+
+
+.transactionFields span
+{
+    margin-left: 0.3em;
+}
+
+
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#EmailOrPassInvalid
+{
+    margin-left: 7em;   
+}
+
+/* css table div */
+
+.divThHead
+{
+    display:inline-flex;
+    width:100%;
+	background-color: #EEE; 
+    border-bottom: 1px solid #999999;
+	font-weight: bold;  
+}
+
+.divTh, .divTd
+{
+    text-align:center;
+}
+
+.divth1
+{    
+    border-right: 1px solid black;
+    width: 37%;
+    overflow:hidden;
+}
+
+.divth2
+{    
+    border-right: 1px solid black;
+    width: 15%;
+}
+
+.divth3
+{    
+    border-right: 1px solid black;
+    width: 15%;
+}
+
+.divth4
+{    
+    border-right: 1px solid black;
+    width: 10%;
+}
+
+.divth5
+{    
+    border-right: 1px solid black;
+    width: 10%;
+}
+
+.divth6
+{    
+    width: 10%;
+}
+
+
+.divBody
+{
+    width:100%;
+    margin-top: 0.5em;
+}
+
+.gridRow
+{    
+    width:100%;
+}
+
+.divTd1
+{
+    border-right: 1px solid black;
+    width:37%;
+}
+.divTd2
+{
+    border-right: 1px solid black;
+    width:15%;
+}
+.divTd3
+{
+    border-right: 1px solid black;
+    width:15%;
+}
+.divTd4
+{
+    border-right: 1px solid black;
+    width:10%;
+}
+.divTd5
+{
+    border-right: 1px solid black;
+    width:10%;
+}
+.divTd6
+{
+    padding-left: 0.3em;
+    width:11%;   
+}
+
+.divTdn
+{    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 2.3em;
+    float: left;  
+}
+
+.tdEdit
+{
+    background-color: aliceblue;
+    text-align:center; 
+}
+
+.tdEdit1 { width: 98.4%; } .tdEdit2 { width: 96.4%; } .tdEdit3 { width: 96.4%; } .tdEdit4 { width: 94.4%; } .tdEdit5 { width: 100%; } 
+a
+{
+    color:#33348e; text-decoration: none; 
+    cursor:pointer;
+}
+
+a:link { color:#33348e; text-decoration: none; }
+a:visited { color:#33348e; text-decoration: none; }
+a:hover { color:#33348e; text-decoration: none; }
+a:active { color:#7476b4; text-decoration: underline; }
+/* endof */
+
+.divTableFoot 
+{
+    margin-top:2em;
+	background-color: #EEE;
+	font-weight: bold;
+	text-align:center;
+  
+}

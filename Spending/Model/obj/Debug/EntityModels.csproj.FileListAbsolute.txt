@@ -1,0 +1,10 @@
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Model\bin\Debug\EntityModels.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Model\bin\Debug\EntityModels.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Model\obj\Debug\EntityModels.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Model\obj\Debug\EntityModels.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Model\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
+C:\Users\rribeiro\Downloads\Project\Spending\Model\bin\Debug\EntityModels.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Model\bin\Debug\EntityModels.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
+C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.pdb

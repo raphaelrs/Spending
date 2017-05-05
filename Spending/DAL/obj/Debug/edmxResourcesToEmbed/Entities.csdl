@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SpendingDbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SpendingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Transactions" EntityType="SpendingDbModel.Transaction" />
+    <EntitySet Name="Users" EntityType="SpendingDbModel.User" />
+    <EntitySet Name="Wallets" EntityType="SpendingDbModel.Wallet" />
+    <AssociationSet Name="FK_Transactions_Wallet" Association="SpendingDbModel.FK_Transactions_Wallet">
+      <End Role="Wallet" EntitySet="Wallets" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Wallet_Users" Association="SpendingDbModel.FK_Wallet_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Wallet" EntitySet="Wallets" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Subject" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Value" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="WalletId" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="Boolean" Nullable="false" />
+    <Property Name="Time" Type="Time" Nullable="false" />
+    <NavigationProperty Name="Wallet" Relationship="SpendingDbModel.FK_Transactions_Wallet" FromRole="Transactions" ToRole="Wallet" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Wallets" Relationship="SpendingDbModel.FK_Wallet_Users" FromRole="Users" ToRole="Wallet" />
+  </EntityType>
+  <EntityType Name="Wallet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Money" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Transactions" Relationship="SpendingDbModel.FK_Transactions_Wallet" FromRole="Wallet" ToRole="Transactions" />
+    <NavigationProperty Name="User" Relationship="SpendingDbModel.FK_Wallet_Users" FromRole="Wallet" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK_Transactions_Wallet">
+    <End Role="Wallet" Type="SpendingDbModel.Wallet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Transactions" Type="SpendingDbModel.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Wallet">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="WalletId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Wallet_Users">
+    <End Role="Users" Type="SpendingDbModel.User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Wallet" Type="SpendingDbModel.Wallet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Wallet">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

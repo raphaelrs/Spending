@@ -1,0 +1,10 @@
+﻿<div id="signInDiv">
+    @if (Request.IsAuthenticated)
+    {    
+        @Html.Partial("SignOut")
+    }
+    else
+    {
+        @Html.Partial("SignIn", new EntityModels.UserModel())
+    }
+</div>

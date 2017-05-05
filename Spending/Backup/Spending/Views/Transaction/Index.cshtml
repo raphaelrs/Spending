@@ -1,0 +1,35 @@
+﻿@model Spending.Models.TransactionViewModel
+<div class="transactionContent">
+    <div class="divOperation">
+        @Html.Partial("AddTransaction", Model.TransactionModel)
+    </div>
+    <div class="transactionPanel">
+        <div class="divThHead">
+            <div class="divth1 divTh">
+                Subject
+            </div>
+            <div class="divth2 divTh">
+                Value
+            </div>
+            <div class="divth3 divTh">
+                Date
+            </div>
+            <div class="divth4 divTh">
+                Time
+            </div>
+            <div class="divth5 divTh">
+                Type
+            </div>
+            <div class="divth6 divTh">
+                Actions
+            </div>
+        </div>
+
+        <div id="transactionListContainer">
+            @Html.Partial("TransactionListControl", Model.TransactionListModel)
+        </div>
+    </div>
+    <div class="cash">
+        @Html.Partial("Wallet", Model.WalletModel)
+    </div>
+</div>

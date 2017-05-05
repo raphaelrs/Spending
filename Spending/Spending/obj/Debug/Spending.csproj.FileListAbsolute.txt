@@ -1,0 +1,51 @@
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\Spending.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\Spending.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\BLL.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\EntityFramework.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\EntityModels.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Web.Http.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\DAL.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Net.Http.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Net.Http.Formatting.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\BLL.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\EntityModels.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\EntityFramework.xml
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Web.Http.xml
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\DAL.pdb
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Net.Http.xml
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\System.Net.Http.Formatting.xml
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\pt-br\System.Net.Http.resources.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\obj\Debug\Spending.csprojResolveAssemblyReference.cache
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\obj\Debug\Spending.dll
+C:\Users\Raphael\Documents\Visual Studio 2010\Projects\Spending\Spending\obj\Debug\Spending.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\Spending.dll.config
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\Spending.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\Spending.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\BLL.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\EntityFramework.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\EntityModels.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.Helpers.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.Mvc.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.Razor.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.WebPages.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.WebPages.Razor.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\DAL.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Net.Http.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Net.Http.Formatting.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\BLL.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\EntityModels.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\EntityFramework.xml
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Web.Http.xml
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\DAL.pdb
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Net.Http.xml
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\System.Net.Http.Formatting.xml
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\pt-br\System.Net.Http.resources.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.csprojResolveAssemblyReference.cache
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.dll
+C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.pdb
