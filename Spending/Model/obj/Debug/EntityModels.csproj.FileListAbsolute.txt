@@ -8,3 +8,8 @@ C:\Users\rribeiro\Downloads\Project\Spending\Model\bin\Debug\EntityModels.pdb
 C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
 C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.dll
 C:\Users\rribeiro\Downloads\Project\Spending\Model\obj\Debug\EntityModels.pdb
+C:\Spending\Spending\Spending\Model\bin\Debug\EntityModels.dll
+C:\Spending\Spending\Spending\Model\bin\Debug\EntityModels.pdb
+C:\Spending\Spending\Spending\Model\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
+C:\Spending\Spending\Spending\Model\obj\Debug\EntityModels.dll
+C:\Spending\Spending\Spending\Model\obj\Debug\EntityModels.pdb

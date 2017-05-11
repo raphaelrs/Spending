@@ -16,3 +16,12 @@ C:\Users\rribeiro\Downloads\Project\Spending\BLL\bin\Debug\EntityModels.pdb
 C:\Users\rribeiro\Downloads\Project\Spending\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\rribeiro\Downloads\Project\Spending\BLL\obj\Debug\BLL.dll
 C:\Users\rribeiro\Downloads\Project\Spending\BLL\obj\Debug\BLL.pdb
+C:\Spending\Spending\Spending\BLL\bin\Debug\BLL.dll
+C:\Spending\Spending\Spending\BLL\bin\Debug\BLL.pdb
+C:\Spending\Spending\Spending\BLL\bin\Debug\DAL.dll
+C:\Spending\Spending\Spending\BLL\bin\Debug\EntityModels.dll
+C:\Spending\Spending\Spending\BLL\bin\Debug\DAL.pdb
+C:\Spending\Spending\Spending\BLL\bin\Debug\EntityModels.pdb
+C:\Spending\Spending\Spending\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Spending\Spending\Spending\BLL\obj\Debug\BLL.dll
+C:\Spending\Spending\Spending\BLL\obj\Debug\BLL.pdb

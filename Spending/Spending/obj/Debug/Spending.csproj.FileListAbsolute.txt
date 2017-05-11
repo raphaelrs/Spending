@@ -49,3 +49,4 @@ C:\Users\rribeiro\Downloads\Project\Spending\Spending\bin\pt-br\System.Net.Http.
 C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.csprojResolveAssemblyReference.cache
 C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.dll
 C:\Users\rribeiro\Downloads\Project\Spending\Spending\obj\Debug\Spending.pdb
+C:\Spending\Spending\Spending\Spending\obj\Debug\Spending.csprojResolveAssemblyReference.cache

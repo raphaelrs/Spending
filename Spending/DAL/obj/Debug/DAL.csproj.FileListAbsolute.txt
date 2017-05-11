@@ -10,3 +10,8 @@ C:\Users\rribeiro\Downloads\Project\Spending\DAL\bin\Debug\DAL.pdb
 C:\Users\rribeiro\Downloads\Project\Spending\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\rribeiro\Downloads\Project\Spending\DAL\obj\Debug\DAL.dll
 C:\Users\rribeiro\Downloads\Project\Spending\DAL\obj\Debug\DAL.pdb
+C:\Spending\Spending\Spending\DAL\bin\Debug\DAL.dll.config
+C:\Spending\Spending\Spending\DAL\bin\Debug\DAL.dll
+C:\Spending\Spending\Spending\DAL\bin\Debug\DAL.pdb
+C:\Spending\Spending\Spending\DAL\obj\Debug\DAL.dll
+C:\Spending\Spending\Spending\DAL\obj\Debug\DAL.pdb

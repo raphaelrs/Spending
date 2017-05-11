@@ -1,0 +1,17 @@
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUpdater.exe.config
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUpdater.exe
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUpdater.pdb
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUp.dll
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUp.pdb
+C:\Spending\Spending\Spending\DbUpdater\bin\Debug\DbUp.xml
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.csprojResolveAssemblyReference.cache
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\MainWindow.g.cs
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\App.g.cs
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater_MarkupCompile.cache
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater_MarkupCompile.lref
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\MainWindow.baml
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.g.resources
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.Properties.Resources.resources
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.csproj.GenerateResource.Cache
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.exe
+C:\Spending\Spending\Spending\DbUpdater\obj\Debug\DbUpdater.pdb

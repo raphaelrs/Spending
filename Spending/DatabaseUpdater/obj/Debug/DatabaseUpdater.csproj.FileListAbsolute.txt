@@ -1,0 +1,9 @@
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DatabaseUpdater.exe.config
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DatabaseUpdater.exe
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DatabaseUpdater.pdb
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DbUp.dll
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DbUp.pdb
+C:\Spending\Spending\Spending\DatabaseUpdater\bin\Debug\DbUp.xml
+C:\Spending\Spending\Spending\DatabaseUpdater\obj\Debug\DatabaseUpdater.csprojResolveAssemblyReference.cache
+C:\Spending\Spending\Spending\DatabaseUpdater\obj\Debug\DatabaseUpdater.exe
+C:\Spending\Spending\Spending\DatabaseUpdater\obj\Debug\DatabaseUpdater.pdb
